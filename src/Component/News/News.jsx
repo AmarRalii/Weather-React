@@ -26,7 +26,7 @@ export default function Test() {
   }
 
   if (error) {
-    return <div className="text-center m-5 text-primary">Error: {error.message}</div>;
+    return <div>Error: {error.message}</div>;
   }
 
   return (

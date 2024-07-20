@@ -4,7 +4,7 @@ import debounce from "lodash/debounce";
 import img1 from "../../assets/icon-umberella.png";
 import img2 from "../../assets/icon-wind.png";
 import img3 from "../../assets/icon-compass.png";
-import "./Home.scss";
+import "./Home.css";
 const API_KEY = "1620e9373be848c3a48145726240501";
 
 const Home = () => {
