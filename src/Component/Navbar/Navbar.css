@@ -1,0 +1,80 @@
+.navbar {
+  background-color: #1e202b;
+  height: 25vh;
+}
+.navbar .container .logo {
+  width: 20%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navbar .container .logo img {
+  width: 70px;
+  height: 40px;
+}
+.navbar .container .logo .logo-caption h2 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.navbar .container .logo .logo-caption p {
+  font-size: 10px;
+  font-weight: 300;
+}
+.navbar .container .navbar-collapse .navbar-nav {
+  width: 60%;
+  background-color: #1e202b;
+}
+.navbar .container .navbar-collapse .navbar-nav li {
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.links {
+  width: 50%;
+}
+
+.links ul li a {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+
+.active {
+  color: #009ad8 !important;
+  border: 2px solid #009ad8;
+  border-radius: 20px;
+}
+
+.active a {
+  color: #009ad8 !important;
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    background-color: #1e202b;
+    height: 25vh;
+  }
+  .navbar .container .logo {
+    width: 30%;
+  }
+}
+@media (max-width: 768px) {
+  .navbar {
+    background-color: #1e202b;
+    height: 25vh;
+  }
+  .navbar .container .logo {
+    width: 40%;
+  }
+}
+@media (max-width: 400px) {
+  .navbar {
+    background-color: #1e202b;
+    height: 25vh;
+  }
+  .navbar .container .logo {
+    width: 60%;
+  }
+}/*# sourceMappingURL=Navbar.css.map */
